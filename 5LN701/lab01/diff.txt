@@ -1,0 +1,1069 @@
+--- /home/yaxi4987/5LN701/lab01/dev1-tok.txt
++++ /home/yaxi4987/5LN701/lab01/dev1-gold.txt
+@@ -1,36 +1,30 @@
+ The
+
+-30
+
+-day
+
++30-day
+
+ simple
+
+ yield
+
+ fell
+
+ to
+
+ an
+
+ average
+
+-8
+
+-.
+
+-19
+
++8.19
+
++%
+
+ from
+
+-8
+
+-.
+
+-22
+
++8.22
+
++%
+
+ ;
+
+ the
+
+-30
+
+-day
+
++30-day
+
+ compound
+
+ yield
+
+ slid
+
+ to
+
+ an
+
+ average
+
+-8
+
+-.
+
+-53
+
++8.53
+
++%
+
+ from
+
+-8
+
+-.
+
+-56
+
++8.56
+
++%
+
+ .
+
+ I
+
+ am
+
+@@ -43,6 +37,7 @@
+ the
+
+ Hanoverian
+
+ brood
+
++--
+
+ and
+
+ I
+
+ defy
+
+@@ -63,12 +58,13 @@
+ British
+
+ Empire
+
+ !
+
+-"
+
++''
+
+ Average
+
+ maturity
+
+ of
+
+ the
+
+ funds
+
++'
+
+ investments
+
+ lengthened
+
+ by
+
+@@ -87,16 +83,13 @@
+ according
+
+ to
+
+ Donoghue
+
+-s
+
++'s
+
+ .
+
+ Sam
+
+ is
+
+ pursuing
+
+ his
+
+-Ph
+
+-.
+
+-D
+
+-.
+
++Ph.D.
+
+ And
+
+ he
+
+ picked
+
+@@ -110,12 +103,7 @@
+ hostess
+
+ in
+
+ the
+
+-V
+
+-.
+
+-I
+
+-.
+
+-P
+
+-.
+
++V.I.P.
+
+ room
+
+ ,
+
+ the
+
+@@ -123,7 +111,7 @@
+ Room
+
+ ,
+
+ it
+
+-s
+
++'s
+
+ called
+
+ ,
+
+ at
+
+@@ -139,20 +127,16 @@
+ Treasury
+
+ said
+
+ the
+
+-U
+
+-.
+
+-S
+
+-.
+
++U.S.
+
+ will
+
+ default
+
+ on
+
+-Nov
+
+-.
+
++Nov.
+
+ 9
+
+ if
+
+ Congress
+
+-doesn
+
+-t
+
++does
+
++n't
+
+ act
+
+ by
+
+ then
+
+@@ -160,8 +144,7 @@
+ Pacific
+
+ First
+
+ Financial
+
+-Corp
+
+-.
+
++Corp.
+
+ said
+
+ shareholders
+
+ approved
+
+@@ -170,16 +153,17 @@
+ by
+
+ Royal
+
+ Trustco
+
+-Ltd
+
+-.
+
++Ltd.
+
+ of
+
+ Toronto
+
+ for
+
++$
+
+ 27
+
+ a
+
+ share
+
+ ,
+
+ or
+
++$
+
+ 212
+
+ million
+
+ .
+
+@@ -192,16 +176,15 @@
+ the
+
+ ceiling
+
+ to
+
+-3
+
+-.
+
+-1
+
++$
+
++3.1
+
+ trillion
+
+ ,
+
+ but
+
+ the
+
+ Senate
+
+-isn
+
+-t
+
++is
+
++n't
+
+ expected
+
+ to
+
+ act
+
+@@ -212,9 +195,8 @@
+ the
+
+ earliest
+
+ .
+
+-"
+
+-Dr
+
+-.
+
++``
+
++Dr.
+
+ Davies
+
+ was
+
+ coming
+
+@@ -226,13 +208,12 @@
+ we
+
+ thought
+
+ we
+
+-d
+
++'d
+
+ join
+
+ him
+
+ in
+
+ a
+
+-post
+
+-chaise
+
++post-chaise
+
+ ;
+
+ and
+
+ he
+
+@@ -251,7 +232,7 @@
+ we
+
+ did
+
+ .
+
+-"
+
++''
+
+ Back
+
+ downtown
+
+ ,
+
+@@ -286,12 +267,10 @@
+ a
+
+ nonexecutive
+
+ director
+
+-Nov
+
+-.
+
++Nov.
+
+ 29
+
+ .
+
+-Mr
+
+-.
+
++Mr.
+
+ Dashwood
+
+ went
+
+ away
+
+@@ -316,12 +295,7 @@
+ changed
+
+ ,
+
+ the
+
+-U
+
+-.
+
+-S
+
+-.
+
+-A
+
+-.
+
++U.S.A.
+
+ Patriot
+
+ Act
+
+ helped
+
+@@ -359,24 +333,21 @@
+ that
+
+ barrier
+
+ .
+
+-"
+
+-Can
+
+-t
+
++``
+
++Ca
+
++n't
+
+ stand
+
+ what
+
+ ?
+
+-"
+
+-W
+
+-.
+
+-R
+
+-.
+
++''
+
++W.R.
+
+ Grace
+
+ holds
+
+ three
+
+ of
+
+ Grace
+
+ Energy
+
+-s
+
++'s
+
+ seven
+
+ board
+
+ seats
+
+@@ -415,6 +386,7 @@
+ make
+
+ filters
+
+ .
+
++``
+
+ But
+
+ you
+
+ have
+
+@@ -446,15 +418,15 @@
+ for
+
+ another
+
+ sponsor
+
+-s
+
++'s
+
+ name
+
+ or
+
+ two
+
+ .
+
+ The
+
+ governor
+
+-couldn
+
+-t
+
++could
+
++n't
+
+ make
+
+ it
+
+ ,
+
+@@ -506,8 +478,9 @@
+ force
+
+ today
+
+ .
+
++``
+
+ There
+
+-s
+
++'s
+
+ no
+
+ question
+
+ that
+
+@@ -518,10 +491,10 @@
+ and
+
+ managers
+
+ contracted
+
+-asbestos
+
+-related
+
++asbestos-related
+
+ diseases
+
+ ,
+
++''
+
+ said
+
+ Darrell
+
+ Phillips
+
+@@ -533,11 +506,12 @@
+ resources
+
+ for
+
+ Hollingsworth
+
++&
+
+ Vose
+
+ .
+
+ The
+
+ government
+
+-s
+
++'s
+
+ borrowing
+
+ authority
+
+ dropped
+
+@@ -545,14 +519,12 @@
+ midnight
+
+ Tuesday
+
+ to
+
+-2
+
+-.
+
+-80
+
++$
+
++2.80
+
+ trillion
+
+ from
+
+-2
+
+-.
+
+-87
+
++$
+
++2.87
+
+ trillion
+
+ .
+
+ The
+
+@@ -571,8 +543,7 @@
+ the
+
+ transaction
+
+ by
+
+-year
+
+-end
+
++year-end
+
+ .
+
+ For
+
+ starters
+
+@@ -582,8 +553,7 @@
+ joined
+
+ Mayor
+
+ William
+
+-H
+
+-.
+
++H.
+
+ Hudnut
+
+ III
+
+ for
+
+@@ -597,8 +567,7 @@
+ and
+
+ a
+
+ guest
+
+-pianist
+
+-comedian
+
++pianist-comedian
+
+ Victor
+
+ Borge
+
+ .
+
+@@ -634,6 +603,7 @@
+ Report
+
+ ,
+
+ yields
+
++``
+
+ may
+
+ blip
+
+ up
+
+@@ -642,13 +612,13 @@
+ they
+
+ blip
+
+ down
+
++''
+
+ because
+
+ of
+
+ recent
+
+ rises
+
+ in
+
+-short
+
+-term
+
++short-term
+
+ interest
+
+ rates
+
+ .
+
+@@ -681,8 +651,7 @@
+ West
+
+ Groton
+
+ ,
+
+-Mass
+
+-.
+
++Mass.
+
+ ,
+
+ paper
+
+ factory
+
+@@ -747,16 +716,13 @@
+ suspended
+
+ sales
+
+ of
+
+-U
+
+-.
+
+-S
+
+-.
+
++U.S.
+
+ savings
+
+ bonds
+
+ because
+
+ Congress
+
+-hasn
+
+-t
+
++has
+
++n't
+
+ lifted
+
+ the
+
+ ceiling
+
+@@ -764,34 +730,26 @@
+ government
+
+ debt
+
+ .
+
+-J
+
+-.
+
+-P
+
+-.
+
++J.P.
+
+ Bolduc
+
+ ,
+
+ vice
+
+ chairman
+
+ of
+
+-W
+
+-.
+
+-R
+
+-.
+
++W.R.
+
+ Grace
+
+-Co
+
+-.
+
++&
+
++Co.
+
+ ,
+
+ which
+
+ holds
+
+ a
+
+-83
+
+-.
+
+-4
+
++83.4
+
++%
+
+ interest
+
+ in
+
+ this
+
+-energy
+
+-services
+
++energy-services
+
+ company
+
+ ,
+
+ was
+
+@@ -873,8 +831,10 @@
+ Knowing
+
+ a
+
+ tasty
+
++--
+
+ and
+
+ free
+
++--
+
+ meal
+
+ when
+
+ they
+
+@@ -897,8 +857,7 @@
+ CEOs
+
+ say
+
+ the
+
+-red
+
+-carpet
+
++red-carpet
+
+ treatment
+
+ tempts
+
+ them
+
+@@ -918,13 +877,11 @@
+ equally
+
+ pleased
+
+ with
+
+-Mrs
+
+-.
+
++Mrs.
+
+ Dashwood
+
+ .
+
+ Clark
+
+-J
+
+-.
+
++J.
+
+ Vitulli
+
+ was
+
+ named
+
+@@ -936,10 +893,7 @@
+ manager
+
+ of
+
+ this
+
+-U
+
+-.
+
+-S
+
+-.
+
++U.S.
+
+ sales
+
+ and
+
+ marketing
+
+@@ -950,5 +904,4 @@
+ maker
+
+ Mazda
+
+ Motor
+
+-Corp
+
+-.
+
++Corp.
+

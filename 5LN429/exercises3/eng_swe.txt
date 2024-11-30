@@ -1,0 +1,28 @@
+corpus, korpus
+tokenization, tokenisering
+lemmatization, lemmatisering
+syntax, syntax
+semantics, semantik
+part-of-speech tagging, ordklasstaggning
+machine translation, maskinöversättning
+speech recognition, taligenkänning
+text-to-speech, text-till-tal
+sentiment analysis, sentimentanalys
+language model, språkmodell
+syntax tree, syntaxträd
+dialog system, dialogsystem
+machine learning, maskininlärning
+grammar rules, grammatikregler
+computational linguist, datalingvist
+speech synthesis, talsyntes
+parsing algorithm, parsningsalgoritm
+language resource, språkresurs
+text classification, textklassificering
+language generation, språkgenerering
+language understanding, språkförståelse
+discourse analysis, diskursanalys
+speech recognition system, taligenkänningsystem
+speech corpora, talcorpora
+information retrieval, informationssökning
+text segmentation, textsegmentering
+treebank, trädbank

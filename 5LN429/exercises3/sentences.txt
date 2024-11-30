@@ -1,0 +1,26 @@
+This is a sentence.
+This is another sentence.
+Linguists are interested in sentences.
+Some linguists do not care much about written language because written language is just an artifact of spoken language, which is a natural language, just like sign language.
+However, many sign languages worldwide are still not officially recognized as languages.
+Swedish Sign Language was not considered a real language in Sweden until 1979.
+In Sweden today, Swedish Sign Language is considered the language of deaf people.
+But for some reason, it is not considered a minority language in Sweden, contrary to, for example, Finnish or Yiddish.
+Back to natural language more generally.
+The minds of human beings have been filled with wonder by the intricacies of natural language for thousands of years.
+It was not until Chomsky came along that we started understanding some of the more general properties of language.
+He took recursion from mathematics and applied it to natural language.
+But recursion is often misunderstood.
+And hotly debated.
+Let us not care about that now.
+All of this is well and good.
+Moreover, the fact remains that we need written language in our modern societies.
+And we need it in research, not just computational linguists, but even linguists that are interested in spoken language or sign language.
+Written language can work as a proxy for spoken language, for example.
+This short text is a text about stuff.
+It is not hard to divide strings into words in this short text.
+For example, there are no special characters, no abbreviations, no contractions, as you can witness for the word cannot, and so on.
+We will deal with that later.
+That process is called tokenization.
+You will learn more about that during the NLP course.
+Good luck with the rest of the exercises.

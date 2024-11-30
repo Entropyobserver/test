@@ -1,0 +1,22 @@
+In statistics, data type means something different than in programming. Here is a list (in no particular order):
+
+
+1. Nominal Data: Nominal data consists of categories or labels with no specific order or ranking. Examples include gender (male, female), colors, or types of fruit.
+
+2. Ordinal Data: Ordinal data represents categories with a specific order or ranking, but the intervals between them may not be equal. Examples include education levels (e.g., high school, college, graduate), and customer satisfaction ratings (e.g., poor, fair, good, excellent).
+
+3. Interval Data: Interval data has a specific order, with equal intervals between values. However, it lacks a true zero point. Examples include temperature measured in Celsius or Fahrenheit.
+
+4. Ratio Data: Ratio data also has a specific order, equal intervals, and a true zero point, which means that a value of zero indicates the absence of the attribute being measured. Examples include height, weight, age, and income.
+Binary Data: Binary data consists of two categories or values, often represented as 0 and 1. Examples include yes/no responses, true/false answers, and presence/absence data.
+
+5. Categorical Data: Categorical data is a broad category that includes nominal and ordinal data. It represents categories or labels rather than numerical values.
+
+6. Continuous Data: Continuous data can take on any numerical value within a given range. It includes interval and ratio data and is typically measured with real numbers.
+
+7. Discrete Data: Discrete data can only take specific numerical values and often represents counts or whole numbers. Examples include the number of students in a class or cars in a parking lot.
+
+8. Dichotomous Data: Dichotomous data is a specific binary data type with only two possible categories or outcomes.
+
+9. Dummy Variables: Dummy variables (indicator variables) represent categories in a binary format (0 or 1) for statistical analysis. They are often created from nominal or ordinal data.
+

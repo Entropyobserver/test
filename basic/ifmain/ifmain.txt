@@ -1,0 +1,2 @@
+当你直接运行 main_script.py 时，__name__ 被设置为 "__main__"，因此 if __name__ == "__main__": 块中的代码会被执行，输出 “main_script is being run directly” 和 “Hello from main_script!”。
+当你运行 import_script.py 时，main_script 被导入，__name__ 被设置为 "main_script"，因此 if __name__ == "__main__": 块中的代码不会被执行，输出 “main_script has been imported” 和 “import_script is running”。

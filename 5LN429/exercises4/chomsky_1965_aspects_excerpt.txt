@@ -1,0 +1,24 @@
+Linguistic theory is concerned primarily with an ideal speaker-listener, in a completely homogeneous speech-community, who knows its language perfectly and is unaffected by such grammatically irrelevant conditions as memory limitations, distractions, shifts of attention and interest, and errors (random or characteristic) in applying his knowledge of the language in actual performance.
+
+This seems to me to have been the position of the founders of modern general linguistics, and no cogent reason for modifying it has been offered.
+
+To study actual linguistic performance, we must consider the interaction of a variety of factors, of which the underlying competence of the speaker-hearer is only one.
+
+In this respect, study of language is no different from empirical investigation of other complex phenomena.
+
+We thus make a fundamental distinction between competence (the speaker-hearer's knowledge of his language) and performance (the actual use of language in concrete situations).
+
+Only under the idealization set forth in the preceding paragraph is performance a direct reflection of competence.
+
+In actual fact, it obviously could not directly reflect competence.
+
+A record of natural speech will show numerous false starts, deviations from rules, changes of plan in mid-course, and so on.
+
+The problem for the linguist, as well as for the child learning the language, is to determine from the data of performance the underlying system of rules that has been mastered by the speaker-hearer and that he puts to use in actual performance.
+
+Hence, in the technical sense, linguistic theory is mentalistic, since it is concerned with discovering a mental reality underlying actual behavior.
+
+Observed use of language or hypothesized dispositions to respond, habits, and so on, may provide evidence as to the nature of this mental reality, but surely cannot constitute the actual subject matter of linguistics, if this is to be a serious discipline.
+
+The distinction I am noting here is related to the langue-parole distinction of Saussure; but it is necessary to reject his concept of langue as merely a systematic inventory of items and to return rather to the Humboldtian conception of underlying competence as a system of generative processes.
+

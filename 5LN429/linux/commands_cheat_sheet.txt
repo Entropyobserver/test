@@ -1,0 +1,66 @@
+> (redirection)
+cat file.txt > file_2.txt
+
+cat (Concatenate and display the contents of a file)
+cat file.txt
+
+cd (Change to the home directory)
+cd
+
+cd (Change directory)
+cd directory1/directory2/
+
+cd (Change directory one step up)
+cd ..
+
+cd - (Change directory to the previous directory)
+cd -
+
+cp (Copy files and directories)
+cp source_file destination
+
+df (Show disk space usage)
+df
+
+df (Show disk space usage in human-readable format)
+df -h
+
+echo (Print text or variables to the terminal)
+echo "Hello, world!"
+
+grep (Search for a specific pattern in files or input)
+grep "keyword" file.txt
+
+head (Display the first few lines of a file)
+head -n 10 file.txt
+
+ls (List files and directories in the current directory)
+ls
+
+mkdir (Make a new directory)
+mkdir folder
+
+mv (Move or rename files and directories)
+mv source_file destination
+
+pwd (Print the current working directory)
+pwd
+
+rm (Remove files - use proper flags for directories)
+rm file.txt
+
+sort (Sort lines of text)
+sort file.txt
+
+ssh (Connect to a remote server via Secure Shell (SSH))
+ssh username@remote_host
+
+scp (Copy with Secure Shell (SSH))
+scp local_file.txt username@remote_host:/path/
+scp username@remote_host:/path/ local_file.txt
+
+wc (newline, word, and byte counts)
+wc filename.txt
+
+wc -l (count of newlines)
+wc -l filenames.txt

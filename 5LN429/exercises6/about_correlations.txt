@@ -1,0 +1,28 @@
+If X and Y are correlated, several scenarios could explain it.
+The arrow -> should be read "causes".
+
+1. X -> Y
+   Warm weather (Y) coincides with the presence of sunshine (X).
+   Despite other contributing factors, there exists a causal relationship.
+
+2. X -> Z -> Y
+   An intermediary hidden variable (Z) might be at play, contributing to the correlation. This suggests an indirect form of causality.
+   Education level (X) is positively correlated with better health (Y). However, Education level (X) is positively correlated with income (Y).
+    Income (Y) is positively correlated with overall health (Z). Education does not directly cause better health. 
+
+3. X <- Y
+   Wind turbines (X) rotate more vigorously in windy conditions (Y). Wind turbines do not generate the wind.
+
+4. X <- Z -> Y
+If you sleep with your shoes on (X), you wake up with a headache (Y). Or, alcohol causes both (Z).
+   Ice cream sales, hot days, and increased swimming might share a hidden variable contributing to a correlation. Similarly, economic prosperity might be linked to both obesity and elevated CO2 emissions, possibly through a hidden variable influencing both.
+
+   5. Biking <-> Lower BMI
+      The correlation could be cyclic or bidirectional.
+      People who engage in biking might have lower BMIs, while those with lower BMIs might be more inclined to bike.
+
+   6. Reduced intimacy <-> Declining relationship
+
+7. X and Y exhibit correlation without causation (random coincidence)
+   In this scenario, X and Y may appear to be correlated, but there is no causal relationship between them. The observed correlation could be purely coincidental or driven by random fluctuations, with no underlying cause-and-effect mechanism.
+

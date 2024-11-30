@@ -1,0 +1,1 @@
+Write a program that deletes, among the 1000 files, only those that do not have a prime number in their name. Write a separate program is_prime.py containing a function is_prime, the latter of which you import to the first program.
