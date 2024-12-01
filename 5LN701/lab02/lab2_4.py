@@ -14,6 +14,7 @@ def get_unigrams(sentences):
         words = word_tokenize(sentence)
         words = [word.lower() for word in words]
         words = ['<s>'] + words + ['<e>']
+        #words = ['<s>'] + word_tokenize(sentence) + ['<e>']
         for word in words:
             if word in unigram_dict:
                 unigram_dict[word] += 1
@@ -27,6 +28,7 @@ def get_bigrams(sentences):
         words = word_tokenize(sentence)
         words = [word.lower() for word in words]
         words = ['<s>'] + words + ['<e>']
+        #words = ['<s>'] + word_tokenize(sentence) + ['<e>']
         for i in range(len(words)-1):
             bi_word = (words[i] , words[i+1]) 
             if bi_word in bigram_dict:
@@ -45,7 +47,6 @@ def get_bigram_surprisal(unigram_dict,bigram_dict):
         first_word,second_word = bi_word
         unigram_count = unigram_dict.get(first_word,0)
         bigram_count = bigram_dict.get(bi_word,0) 
-        #unigram_count_smooth = unigram_count + len(bigram_dict)
         unigram_count_smooth = unigram_count + 1
         bigram_count_smooth = bigram_count + 1
         cond_p = bigram_count_smooth / unigram_count_smooth
@@ -54,54 +55,29 @@ def get_bigram_surprisal(unigram_dict,bigram_dict):
     return bi_sur_dict
 
 def get_perplexity(bi_surp, test):
-    """
-    使用 bigram 的惊奇值计算测试数据的困惑度 (perplexity)。
-    
-    参数:
-    - bi_surp: 字典，键为 bigram，值为对应的惊奇值 (surprisal)。
-    - test: 测试数据列表，每个句子为一个字符串。
-    
-    返回:
-    - perplexity: 测试数据的困惑度值。
-    """
-    total_surp = 0.0  # 累积的总惊奇值
-    word_count = 0    # 测试数据中的总单词数量
-    
-    # 计算默认惊奇值，用于未见 bigram 的情况
+
+    total_surp = 0.0
+    word_count = 0
     total_bigrams = len(bi_surp)
-    default_surp = get_surprisal(1/total_bigrams)
-    print(f"Default surprisal for unseen bigrams: {default_surp}")
-    
+    default_surp = -log(1/total_bigrams, 2)
+
     for sentence in test:
-        # 第 1 步：对句子进行分词并添加 <s> 和 <e>
         words = word_tokenize(sentence)
+        #words = [word.lower() for word in words]
         words = ['<s>'] + words + ['<e>']
-        words = [word.lower() for word in words]
-        word_count += len(words) - 1  # 更新总单词数 (不包括 <s>)
-        print(f"Processed sentence: {words}")
+        word_count += len(words) - 1
         
-        # 第 2 步：处理第一个 bigram (<s>, first_word)
         first_bigram = ('<s>', words[1])
-        surprisal_value = bi_surp.get(first_bigram, default_surp)
-        total_surp += surprisal_value
-        print(f"Bigram: {first_bigram}, Surprisal: {surprisal_value}")
-        
-        # 第 3 步：处理句子中的所有 bigram
-        for i in range(1, len(words) - 1):
-            bigram = (words[i], words[i + 1])
-            surprisal_value = bi_surp.get(bigram, default_surp)
-            total_surp += surprisal_value
-            print(f"Bigram: {bigram}, Surprisal: {surprisal_value}")
-    
-    # 第 4 步：计算平均惊奇值
+        total_surp += bi_surp.get(first_bigram, default_surp)
+
+        for i in range(1, len(words)-1):
+            bigram = (words[i], words[i+1])
+            total_surp += bi_surp.get(bigram, default_surp)
+
     avg_surprisal = total_surp / word_count
-    print(f"Average surprisal (entropy): {avg_surprisal}")
-    
-    # 第 5 步：计算困惑度
     perplexity = 2 ** avg_surprisal
-    print(f"Calculated perplexity: {perplexity}")
     
-    return perplexity
+    return perplexity 
 
 def main():
     path = sys.argv[1]
