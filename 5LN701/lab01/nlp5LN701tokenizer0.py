@@ -24,3 +24,6 @@ main()
 
 #python nlp5LN701tokenizer0.py '/home/yaxi4987/5LN701/lab01/dev1-raw.txt'
 #python3 nlp5LN701tokenizer0.py '/home/yaxi4987/5LN701/lab01/dev1-raw.txt' > '/home/yaxi4987/5LN701/lab01/dev0-tok.txt'
+#python3 score-tokens.py dev1-gold.txt dev3-tok.txt
+
+#Precision = 0.9207317073170732 (755/820)Recall = 0.8324145534729879 (755/907)F-score = 0.8743485813549507
