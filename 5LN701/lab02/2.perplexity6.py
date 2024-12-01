@@ -37,7 +37,8 @@ def get_bigram_surprisal(unigram_dict, bigram_dict):
     bi_sur_dict = {}
     # [改动] 计算词汇表大小 V
     V = len(unigram_dict)  # 词汇表大小包括所有训练集的 unigram
-    V += 1  # 添加一个未见 unigram 的概率   
+    #V = 1  # 添加一个未见 unigram 的概率   
+    
     for bi_word in bigram_dict:
         first_word, second_word = bi_word#  
         unigram_count = unigram_dict.get(first_word, 0)
