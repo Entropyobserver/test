@@ -8,12 +8,13 @@ import sys,time
 #nltk.download('punkt')
 
 def get_lines(path):
-    with open(path,'r') as f:
+    with open(path,'r',encoding= 'utf-8') as f:
         train = f.read()
     return train
 
 def main():
-    path = sys.argv[1]
+    #path = sys.argv[1]
+    path = r"D:\J\Desktop\language technology\course\5LN701\lab02\wiki.train_1147.raw"
     train = get_lines(path)
     sentences = sent_tokenize(train)
     print((len(train)))
@@ -39,18 +40,9 @@ def get_unigrams(sentences):
                 unigram_dict[word] += 1
             else:
                 unigram_dict[word] = 1
+    
     return unigram_dict
-"""
-def get_bigrams(sentences):
-    bigram_dict = {}
-    for word in range(len(sentences)-1):
-        bi_word = (sentences[word],sentences[word+1]) 
-        if bi_word in bigram_dict:
-            bigram_dict[bi_word] += 1
-        else:
-            bigram_dict[bi_word] = 1
-    return bigram_dict
-"""
+
 def get_bigrams(sentences):
     bigram_dict = {}
     for sentence in sentences:

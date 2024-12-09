@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r'D:\J\Desktop\language technology\s\5LN715\ans2\output.csv')
+data = pd.read_csv(r'D:\J\Desktop\language technology\course\5LN715\ans2\output.csv')
 
 df = pd.DataFrame(data)
 

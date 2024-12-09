@@ -1,0 +1,3 @@
+:/Users/J/anaconda3/python.exe "d:/J/Desktop/language
+technology/course/5LN715/class/cls.py"
+
