@@ -1,0 +1,76 @@
+Statement_Type	Account_Name_Norwegian	Account_Name_English	2024_Amount_NOK	2023_Amount_NOK	Notes
+Income Statement	Salgsinntekt	Sales Revenue	25107008	4891891	
+Income Statement	Sum inntekter	Total Income	25107008	4891891	
+Income Statement	Varekostnad	Cost of Goods Sold	9880032	770840	
+Income Statement	L?nnskostnad	Payroll Expenses	3700289	2703253	Note 1
+Income Statement	Avskrivning p? varige driftsmidler og immaterielle eiendeler	Depreciation on Fixed Assets and Intangible Assets	316180	0	
+Income Statement	Annen driftskostnad	Other Operating Expenses	4355621	1330101	
+Income Statement	Sum kostnader	Total Expenses	18252121	4804194	
+Income Statement	Driftsresultat	Operating Result	6854887	87697	
+Income Statement	Annen renteinntekt	Other Interest Income	11439	385	
+Income Statement	Annen finansinntekt	Other Financial Income	1230	0	
+Income Statement	Sum finansinntekter	Total Financial Income	12669	385	
+Income Statement	Annen rentekostnad	Other Interest Expenses	51288	59498	
+Income Statement	Annen finanskostnad	Other Financial Expenses	3916	0	
+Income Statement	Sum finanskostnader	Total Financial Expenses	55205	59498	
+Income Statement	Netto finans	Net Financial Result	-42536	-59113	
+Income Statement	Resultat f?r skattekostnad	Result Before Tax	6812351	28584	
+Income Statement	Skattekostnad	Tax Expense	1498717	32524	
+Income Statement	?rsresultat	Annual Result	5313634	-3940	
+Balance Sheet	Tomter bygninger og annen fast eiendom	Land Buildings and Other Real Estate	394022	0	
+Balance Sheet	Maskiner og anlegg	Machinery and Equipment	928281	334817	
+Balance Sheet	Driftsl?s?re inventar verkt?y kontormaskiner og lignende	Operating Equipment Inventory Tools Office Machines etc	1010616	428763	
+Balance Sheet	Sum varige driftsmidler	Total Fixed Assets	2332919	763580	
+Balance Sheet	Andre fordringer	Other Receivables	1949477	288868	
+Balance Sheet	Sum finansielle anleggsmidler	Total Financial Fixed Assets	1949477	288868	
+Balance Sheet	Sum anleggsmidler	Total Fixed Assets	4282396	1052447	
+Balance Sheet	Kundefordringer	Customer Receivables	5575707	2000151	
+Balance Sheet	Andre fordringer	Other Receivables	178797	233394	
+Balance Sheet	Sum fordringer	Total Receivables	5754504	2233546	
+Balance Sheet	Bankinnskudd kontanter og lignende	Bank Deposits Cash and Similar	1595549	793599	
+Balance Sheet	Sum oml?psmidler	Total Current Assets	7350053	3027145	
+Balance Sheet	SUM EIENDELER	TOTAL ASSETS	11632449	4079592	
+Balance Sheet	Selskapskapital	Share Capital	30000	30000	
+Balance Sheet	Sum innskutt egenkapital	Total Paid-in Capital	30000	30000	
+Balance Sheet	Annen egenkapital	Other Equity	5572404	258770	
+Balance Sheet	Sum opptjent egenkapital	Total Retained Earnings	5572404	258770	
+Balance Sheet	Sum egenkapital	Total Equity	5602404	288770	
+Balance Sheet	Utsatt skatt	Deferred Tax	89409	28887	
+Balance Sheet	Gjeld til kredittinstitusjoner	Debt to Credit Institutions	364050	401786	
+Balance Sheet	?vrig langsiktig gjeld	Other Long-term Debt	200000	200000	
+Balance Sheet	Sum annen langsiktig gjeld	Total Other Long-term Debt	564050	601786	
+Balance Sheet	Sum langsiktig gjeld	Total Long-term Debt	653459	630673	
+Balance Sheet	Leverand?rgjeld	Accounts Payable	3162252	1301437	
+Balance Sheet	Betalbar skatt	Payable Tax	1421220	-16975	
+Balance Sheet	Skyldige offentlige avgifter	Public Charges Payable	526789	509602	
+Balance Sheet	Annen kortsiktig gjeld	Other Short-term Debt	266325	1366087	
+Balance Sheet	Sum kortsiktig gjeld	Total Short-term Debt	5376586	3160150	
+Balance Sheet	Sum gjeld	Total Debt	6030045	3790823	
+Balance Sheet	SUM EGENKAPITAL OG GJELD	TOTAL EQUITY AND DEBT	11632449	4079592	
+Additional Info	Antall ?rsverk i regnskaps?ret	Number of Full-time Employees	7	0	Note 1
+Cash Flow Statement	KONTANTSTR?M FRA DRIFTSAKTIVITETER	CASH FLOW FROM OPERATING ACTIVITIES			
+Cash Flow Statement	?rsresultat	Net Income	5313634	-3940	From Income Statement
+Cash Flow Statement	Justeringer for ikke-kontante poster:	Adjustments for non-cash items:			
+Cash Flow Statement	Avskrivninger	Depreciation	316180	0	From Income Statement
+Cash Flow Statement	Endring i utsatt skatt	Change in Deferred Tax	60522	28887	Balance Sheet difference
+Cash Flow Statement	Endringer i arbeidskapital:	Changes in Working Capital:			
+Cash Flow Statement	Endring i kundefordringer	Change in Customer Receivables	-3575556	-2000151	Balance Sheet difference (negative = increase)
+Cash Flow Statement	Endring i andre fordringer	Change in Other Receivables	54597	-233394	Balance Sheet difference (negative = increase)
+Cash Flow Statement	Endring i leverand?rgjeld	Change in Accounts Payable	1860815	1301437	Balance Sheet difference (positive = increase)
+Cash Flow Statement	Endring i betalbar skatt	Change in Payable Tax	1438195	-16975	Balance Sheet difference (positive = increase)
+Cash Flow Statement	Endring i skyldige offentlige avgifter	Change in Public Charges Payable	17187	509602	Balance Sheet difference (positive = increase)
+Cash Flow Statement	Endring i annen kortsiktig gjeld	Change in Other Short-term Debt	-1099762	1366087	Balance Sheet difference (negative = decrease)
+Cash Flow Statement	Netto kontantstr?m fra driftsaktiviteter	Net Cash Flow from Operating Activities	3385812	951553	Sum of operating items
+Cash Flow Statement	KONTANTSTR?M FRA INVESTERINGSAKTIVITETER	CASH FLOW FROM INVESTING ACTIVITIES			
+Cash Flow Statement	Kj?p av varige driftsmidler	Purchase of Fixed Assets	-1885519	-763580	Balance Sheet difference (negative = cash outflow)
+Cash Flow Statement	Endring i finansielle anleggsmidler	Change in Financial Fixed Assets	-1660609	-288868	Balance Sheet difference (negative = increase)
+Cash Flow Statement	Netto kontantstr?m fra investeringsaktiviteter	Net Cash Flow from Investing Activities	-3546128	-1052448	Sum of investing items
+Cash Flow Statement	KONTANTSTR?M FRA FINANSIERINGSAKTIVITETER	CASH FLOW FROM FINANCING ACTIVITIES			
+Cash Flow Statement	Endring i langsiktig gjeld til kredittinstitusjoner	Change in Long-term Debt to Credit Institutions	-37736	401786	Balance Sheet difference
+Cash Flow Statement	Endring i ?vrig langsiktig gjeld	Change in Other Long-term Debt	0	200000	Balance Sheet difference
+Cash Flow Statement	Netto kontantstr?m fra finansieringsaktiviteter	Net Cash Flow from Financing Activities	-37736	601786	Sum of financing items
+Cash Flow Statement	NETTO ENDRING I KONTANTER	NET CHANGE IN CASH	801948	500891	Sum of all cash flows
+Cash Flow Statement	Kontanter ved periodens begynnelse	Cash at Beginning of Period	793599	292708	Previous year ending balance
+Cash Flow Statement	Kontanter ved periodens slutt	Cash at End of Period	1595547	793599	Beginning + Net Change
+Cash Flow Statement	Kontroll mot balanse	Control vs Balance Sheet	1595549	793599	From Balance Sheet
+Cash Flow Statement	Differanse	Difference	-2	0	Should be close to zero

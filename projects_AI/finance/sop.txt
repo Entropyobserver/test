@@ -1,0 +1,9 @@
+cd /d/J/Desktop/language_technology/course/projects_AI/finance
+
+git clone https://huggingface.co/spaces/entropy25/report
+
+huggingface-cli login
+
+git add .
+git commit -m "your info"
+git push origin main
